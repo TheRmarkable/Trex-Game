@@ -1,0 +1,51 @@
+html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.grid {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.dinozor {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: url(t-rex.png);
+  bottom: 0px;
+}
+
+.obstacle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-image: url(cacti.png);
+  bottom: 0px;
+}
+
+
+
+#alert {
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  font-family: Lora, serif;
+  font-size: 100px;
+  color: red;
+}
+
+#score {
+  font-family: Ubuntu, sans-serif;
+  font-size: 46px; 
+}
+
+
+
